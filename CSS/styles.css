@@ -1,35 +1,11 @@
-/************* TAG SECTORTS **************/
-body {
+/** BODY SECTORTS **/
+.alleverything {
   background-color: #d2f5e3;
   text-align: center;
-  overflow-x: hidden;
-
-
+  width: auto;
 
 }
 
-
-
-
-/************* CLASS SECTORTS **************/
-.p1 {
-  color: #11999E;
-  position: relative; top: 3.75rem;
-  font-family: 'Lobster', cursive;
-  font-weight: normal;
-  text-align: center;
-
-}
-
-.p2 {
-  margin: 5px auto 70px;
-}
-
-.p3 {
-  font-family: 'Robot',cursive;
-  font-size: 10px;
-  padding-top: 20px;
-}
 
 .horizontal1 {
   background-color: #d2f5e3;
@@ -37,39 +13,97 @@ body {
   border-bottom: none;
   width:5%;
   margin: 50px auto;
-
 }
 
 
+/** HEADING **/
 
+.heading1 {
+  color: #11999E;
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
 
-
-
-.img1 {
-  position: absolute;
-  left: 400px;
-  top: 200px;
 }
 
-.img2 {
-  vertical-align: middle;
-  position: relative; top: 50px;
+.heading2 {
+  color: #11999E;
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
 }
 
-.img3 {
-  position: absolute;
-  top: 70px;
-  right: 300px;
+.cloud1img {
+  position: relative;
+  bottom: 580px;
+  left: 500px;
+  width: 17%;
 }
 
-.img4 {
+.cloud2img {
+  position: relative;
+  bottom: 320px;
+  right: 500px;
+}
+
+.cloud3img {
+  position: relative;
+  bottom: 250px;
+  left: 200px;
+}
+
+.mountainimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; bottom: 40px;
+}
+
+.headingparagraph {
+  color: #11999E;
+  position: relative; bottom: 20px;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+.eyeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 100px;
   width: 100px;
-  position: relative;
-  top: 40px;
+  margin-bottom: 40px;
+
 }
 
-.img5 {
+/** MY SKILLS **/
+
+
+.skill-customerservice {
+  width: 100%;
+  text-align: left;
+  position: relative; left: 260px;
+}
+
+.skill-webdevelopment {
+  width: 100%;
+  text-align: right;
+  position: relative; right: 260px;
+
+}
+
+
+.h2 {
+  color: #11999E;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+
+}
+
+
+.h3 {
+  color: #11999E;
+}
+.customerserviceimg {
   height: 100px;
   width: 100px;
   float: left;
@@ -77,82 +111,19 @@ body {
 
 }
 
-.img6 {
+.webdevelopmentimg {
   height: 100px;
   width: 100px;
   float: right;
   margin-left: 20px;
-
-
-
-}
-
-.h2 {
-  color: #11999E;
-  font-size: 30px;
-
-}
-
-.h3 {
-  color: #11999E;
-
-
 }
 
 
-.skill-row1 {
-  width: 100%;
-  text-align: left;
-  position: relative; left: 260px;
-
-
-}
-
-.skill-row2 {
-  width: 100%;
-  text-align: right;
-  position: relative; right: 260px;
-  margin-bottom: 150px;
-
-
-}
-
-
-.website1 {
-  font-family: 'Robot', cursive;
-  text-decoration: none;
+.websiteimg {
   width: 100px;
-  height: 100px;
-  position: absolute; right: 500px;
-  position: absolute; top: 1300px;
-}
-
-.website2 {
-  font-family: 'Robot', cursive;
-  text-decoration: none;
-  width: 100px;
-  height: 100px;
-  position: absolute; right: 380px;
-  position: absolute; top: 1300px;
-
-}
-
-.website3 {
-  font-family: 'Robot', cursive;
-  text-decoration: none;
-  width: 100px;
-  height: 100px;
-  position: absolute; right: 260px;
-  position: absolute; top: 1300px;
-
 }
 
 
-
-
-.img7 {
-  width: 100%;
-}
 
 
 
@@ -208,81 +179,8 @@ body {
   text-decoration: none;
 
 }
-
-
-
-
-
-
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.website1:hover .img7 {
-  opacity: 0.3;
-}
-
-.website1:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  color: #11999E;
-}
-
-
-
-
-
-.website2:hover .img7 {
-  opacity: 0.3;
-}
-
-.website2:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  color: #11999E;
-}
-
-
-
-
-.website3:hover .img7 {
-  opacity: 0.3;
-}
-
-.website3:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  color: #11999E;
-}
-
-
-
-
-
-
-
-
-/************* ID SECTORTS **************/
-#heading {
-  color: #11999E;
-  font-size: 60px;
-  font-family: 'Lobster', cursive;
-  line-height: 2;
-  position: relative; top: 80px;
-  position: relative; left:180px;
-
+.p3 {
+  font-size: 10px;
+  text-align: right;
+  position: relative; right: 10px;
 }
